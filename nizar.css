@@ -1,0 +1,78 @@
+table{
+    width: 100%;
+    font-size: 14px;
+    color: #444;
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+
+.data_pendaftar {
+    max-width: 1200px;
+    border: 1px solid #222222;
+    background: #efefef33;
+    padding: 15px;
+    overflow: auto;
+    margin: auto;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table>thead{
+    background-color: #2e2e2e;
+    color: whitesmoke;
+}
+
+table>thead th{
+    padding: 15px;
+}
+
+table th, table td{
+    border: 1px solid grey;
+    text-decoration: none;
+}
+.action_buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.action_buttons a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.action_buttons .btn-delete {
+    background-color: #dc3545;
+}
+
+.action_buttons .btn-update {
+    background-color: #0d6efd;
+}
+
+.action_buttons .btn-detail {
+    background-color: #6c757d;
+}
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.btn-delete {
+    background-color: #dc3545 !important;
+    color: #fff !important;
+}
+
+.btn-update {
+    background-color: #0d6efd !important;
+    color: #fff !important;
+}
+
+.btn-detail {
+    background-color: #198754 !important;
+    color: #fff !important;
+}
